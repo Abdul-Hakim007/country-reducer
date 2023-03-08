@@ -1,0 +1,39 @@
+.display{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.input_field{
+    text-align: center;
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+
+
+}
+.input{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    gap: 10px;
+    background-color: rgb(133, 226, 226);
+    height: 80px;
+    border-radius: 10px;
+}
+.search{
+    background-color: orangered;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.search:hover{
+    background-color: aqua;
+    color: white;
+    font-weight: bolder;
+}
+.content_error{
+    margin-left: 580px;
+    margin-top: 300px;
+    color: white;
+}

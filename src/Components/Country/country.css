@@ -1,0 +1,15 @@
+.country{
+    border: 1px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(148, 229, 248);
+}
+.country:hover{
+    background-color: transparent;
+}
+.image{
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+}
